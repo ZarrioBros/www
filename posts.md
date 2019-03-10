@@ -8,7 +8,7 @@ banner_image: "/uploads/2019/02/03/thank-you-zarrio.png"
 menu:
   navigation:
     identifier: _posts
-    weight: 4
+    weight: 3
   footer:
     identifier: _posts
     weight: 2

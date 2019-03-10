@@ -13,9 +13,6 @@ menu:
   footer:
     identifier: _about
     weight: 1
-  navigation:
-    identifier: _about
-    weight: 2
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel felis enim. Vivamus eu viverra enim, ut facilisis tortor. Mauris imperdiet rutrum ipsum, ut euismod nisl vulputate sed. Curabitur porttitor sagittis ipsum. Aliquam erat volutpat. Vivamus dolor elit, fermentum non risus quis, blandit tristique elit. Morbi dignissim faucibus placerat. Mauris in maximus erat, in rutrum felis. Vivamus vehicula, ligula non varius posuere, libero enim porttitor sem, quis lacinia metus arcu id massa.

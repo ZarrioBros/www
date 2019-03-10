@@ -12,7 +12,7 @@ textline: Si tú farcias del carordias, no remueldas las leporcias
 menu:
   navigation:
     identifier: _projects
-    weight: 3
+    weight: 2
 
 ---
 Estos son todos los proyectos que hemos desarrollado hasta ahora.
