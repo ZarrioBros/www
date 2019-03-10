@@ -4,7 +4,11 @@ tags: []
 sub_heading: super movidas
 banner_image: "/uploads/2018/02/17/bridge.jpg"
 slug: ''
-date: 2019-03-10 04:55:33 +0100
+date: 2019-03-10 03:55:33 +0000
+menu:
+  navigation:
+    weight: 1
+    parent: _projects
 
 ---
 Movidas y más movidas.
