@@ -15,7 +15,7 @@ fields:
   label: Fecha de publicación
   type: datetime
   hidden: false
-  default: ''
+  required: true
 - name: tags
   label: Etiquetas
   type: tag_list
