@@ -1,5 +1,5 @@
 ---
-label: Contact Information
+label: Información de contacto
 hide_body: true
 fields:
 - name: email
@@ -8,37 +8,37 @@ fields:
   hidden: false
   default: ''
 - name: phone
-  label: Phone
+  label: Teléfono
   type: text
   hidden: false
   default: ''
 - name: address_1
-  label: Address 1
+  label: Dirección 1
   type: text
   hidden: false
   default: ''
 - name: address_2
-  label: Address 2
+  label: Dirección 2
   type: text
   hidden: false
   default: ''
 - name: city
-  label: City
+  label: Ciudad
   type: text
   hidden: false
   default: ''
 - name: state
-  label: State
+  label: Región
   type: text
   hidden: false
   default: ''
 - name: postal_code
-  label: Postal code
+  label: Código postal
   type: text
   hidden: false
   default: ''
 - name: country
-  label: Country
+  label: País
   type: text
   hidden: false
   default: ''
@@ -46,6 +46,6 @@ fields:
   label: Twitter
   type: text
   hidden: false
-  default: ''
+  default: ZarrioBros
 pages:
 - _data/information.yml
