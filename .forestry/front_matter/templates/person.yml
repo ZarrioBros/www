@@ -13,7 +13,7 @@ fields:
 - type: file
   label: Imagen
   name: thumbnail
-  description: 'Imagen cuadrada, hasta 500 píxeles'
+  description: Imagen cuadrada, hasta 500 píxeles
 - name: role
   label: Rol
   type: list
@@ -36,7 +36,7 @@ fields:
   hidden: true
   default: person
 pages:
-- _people/frostris.md
-- _people/mangler.md
-- _people/oger.md
 - _people/monger.md
+- _people/oger.md
+- _people/mangler.md
+- _people/frostris.md
