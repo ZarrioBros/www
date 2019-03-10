@@ -1,62 +1,62 @@
 ---
-label: landing-page
+label: Página principal
 hide_body: false
 fields:
 - name: title
-  label: Title
+  label: Título
   type: text
   hidden: false
-  default: ''
+  default: Inicio
   config:
     required: true
 - type: text
-  label: Hero Heading
+  label: Cabecera principal
   name: heading
-  default: Belkirk College
+  default: Zarrio Bros
 - type: text
   name: sub_heading
-  label: Hero Sub heading
-  default: Engineering and Health Sciences
+  label: Cabecera secundaria
+  default: El secreto está en el mejunje
 - type: file
   name: banner_image
-  label: Hero Image
-  description: 'Dimensions: 1200px by 580px'
+  label: Imagen de fondo
+  description: 'Tamaño: 1200 x 580'
   config:
     maxSize: '2'
 - type: field_group
   name: hero_button
-  label: Hero Button
+  label: Botón
   fields:
   - type: text
     name: text
-    label: Text
+    label: Texto
   - type: text
     name: href
-    label: Link
+    label: Enlace
 - type: textarea
   name: textline
-  label: Description
+  label: Descripción
   config:
     wysiwyg: true
     required: false
     schema:
       format: markdown
 - name: services
-  label: Services
+  label: Servicios
   type: field_group_list
   fields:
   - name: heading
-    label: Heading
+    label: Nombre
     type: text
     hidden: false
     default: ''
   - name: description
-    label: Description
+    label: Descripción
     type: text
     hidden: false
     default: ''
   - name: icon
-    label: Icon
+    label: Icono
     type: file
     hidden: false
     default: ''
@@ -64,17 +64,17 @@ fields:
   default: ''
 - type: boolean
   name: show_news
-  label: Show News?
-  description: Enables a news section with a twitter feed & latest posts
+  label: "¿Mostrar novedades?"
+  description: Activa un apartado con las últimas publicaciones y tweets
 - type: image_gallery
   name: partners
   label: Partner Logos
 - type: boolean
   name: show_staff
-  label: Show Staff?
-  description: Enables a staff section that lists each person in the People collection
+  label: "¿Mostrar personas?"
+  description: Activa un apartado mostrando todas las personas de la web
 - name: layout
-  label: Layout
+  label: Plantilla
   type: text
   hidden: true
   default: home
