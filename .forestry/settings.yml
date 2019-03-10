@@ -33,7 +33,7 @@ sections:
   - project
 - type: document
   path: _data/information.yml
-  label: Información de contacto
+  label: Contacto
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
