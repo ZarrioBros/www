@@ -1,8 +1,11 @@
 ---
-title: bienvenidos
+title: Bienvenidos
 sub_heading: OLA K ASE
 date: 2019-03-09 16:00:00 +0100
 banner_image: "/uploads/2018/02/17/college-building.jpg"
+tags: []
+related_posts: []
+layout: ''
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum lobortis nisl eget vestibulum. Etiam porta nulla nibh, at dignissim massa gravida et. Donec dictum venenatis urna, in porttitor neque egestas sit amet. Morbi quis quam facilisis, pellentesque arcu ut, venenatis dolor. Nunc venenatis, felis ac finibus posuere, enim mi vestibulum nisi, ac lacinia dolor tortor vel tellus. Pellentesque pharetra lorem nec dolor ultrices tristique. Duis metus enim, volutpat ac mauris vitae, hendrerit bibendum dolor. Integer ac massa non nibh fermentum malesuada vitae at velit. Nullam a pulvinar nunc. Nullam quis felis vel ex malesuada tristique id eget massa. Suspendisse laoreet consectetur nisl id tincidunt. Aliquam eget elit sem.
