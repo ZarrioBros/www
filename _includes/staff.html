@@ -7,7 +7,7 @@
     <div class="container pure-g">
         <div class="pure-u-1">
             <div class="content">
-                <h2 class="section-heading">Belkirk Staff</h2>
+                <h2 class="section-heading">¿Quiénes somos?</h2>
                 <div class="pure-g">
                 {% assign people = site.people %}
                 {% for person in people %}
@@ -29,7 +29,7 @@
                                     {{ person.sub_heading }}
                                 </div>{% endif %}
                                 <p>
-                                    {{ person.content | truncatewords: 25, "...<br><br>Continue reading →" }}
+                                    {{ person.content | truncatewords: 25, "...<br><br>Continuar leyendo →" }}
                                 </p>
                             </div>
                         </div>
