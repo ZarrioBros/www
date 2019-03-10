@@ -16,6 +16,19 @@ fields:
   type: datetime
   hidden: false
   required: true
+- name: category
+  label: Categoría
+  description: Elige una categoría para esta publicación
+  type: select
+  required: true
+  hidden: false
+  default: 'posts'
+  config:
+      source:
+        type: custom
+      options:
+          - posts
+          - news
 - name: tags
   label: Etiquetas
   type: tag_list
