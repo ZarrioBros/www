@@ -1,28 +1,32 @@
 ---
-label: project
+label: Proyecto
 hide_body: false
 fields:
 - type: text
   name: title
-  label: Title
+  label: Título
+  default: Sin título
 - name: sub_heading
-  label: Sub Heading
+  label: Subtítulo
   type: text
   hidden: false
   default: ''
 - name: banner_image
-  label: Banner Image
+  label: Imagen de fondo
   type: file
-  description: Dimensions work best at 1200 pixels by 400 pixels
+  description: 'Tamaño ideal: 1200 x 400'
   hidden: false
   default: ''
 - name: tags
-  label: Tags
+  label: Etiquetas
   type: tag_list
   hidden: false
   default: []
 - name: slug
-  label: Slug
+  label: URL
   type: text
   hidden: false
   default: ''
+pages:
+- _projects/mandangas.md
+- _projects/movidas.md
