@@ -14,12 +14,14 @@ defaults:
       type: posts
     values:
       layout: post
+      categories: posts
 collections:
   people:
     output: true
     permalink: "/about/:path/"
   posts:
     output: true
+    permalink: "/:categories/:year/:month/:day/:title/"
   projects:
     output: true
     permalink: "/projects/:path/"
