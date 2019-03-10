@@ -40,8 +40,15 @@
 					</div>
 				{% endif %}
 					<h2>{{ page.title }}</h2>
-					{% if page.sub_heading and page.sub_heading != "" %}
+				{% if page.sub_heading and page.sub_heading != "" %}
 					<h3>{{ page.sub_heading }}</h3>
+				{% endif %}
+				{% if page.twitter and page.twitter != "" %}
+					<p>
+						<a style="text-decoration: none" href="https://twitter.com/{{ page.twitter }}">
+							@{{ page.twitter }}
+						</a>
+					</p>
 				{% endif %}
 				</div>
 			</div>
