@@ -5,10 +5,6 @@ sub_heading: Super mandangas
 banner_image: "/uploads/2018/02/17/bridge3.jpg"
 slug: ''
 date: 2019-03-10 04:00:35 +0000
-menu:
-  navigation:
-    weight: 2
-    parent: _projects
 
 ---
 Mandangas a go-go.
