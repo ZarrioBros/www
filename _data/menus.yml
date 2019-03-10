@@ -7,8 +7,8 @@ navigation:
 - weight: 2
   url: "/projects/mandangas/"
   parent: _projects
-  title: Mandangas
+  title: Mandangas!
 - weight: 1
   url: "/projects/movidas/"
   parent: _projects
-  title: Movidas
+  title: Movidas!
