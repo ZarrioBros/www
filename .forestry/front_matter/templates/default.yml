@@ -1,25 +1,25 @@
 ---
-label: default
+label: Página por defecto
 hide_body: true
 fields:
 - type: text
   name: title
-  label: Title
+  label: Título
   config:
     required: true
 - type: textarea
   name: description
-  label: Description
-  description: A short description of the page
+  label: Descripción
+  description: Una pequeña descripción de la página
   config:
     required: true
 - type: datetime
   name: publish_date
-  label: Publish Date
+  label: Fecha de publicación
   config:
     required: true
 - type: text
   name: layout
-  label: layout
+  label: Plantilla
   hidden: true
   default: post
