@@ -7,7 +7,7 @@ sub_heading: Ora et Labora
 layout: landing-page
 textline: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 publish_date: 2017-12-01 04:00:00 +0000
-show_news: true
+show_news: false
 show_staff: true
 menu:
   footer:
