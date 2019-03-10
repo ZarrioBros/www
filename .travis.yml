@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+  - 2.4.1
+
+script:
+  - bundle exec jekyll build -d _site
+
+deploy:
+  - provider: pages
+    github-token: $GITHUB_TOKEN
+    local-dir: _site
+    target-branch: gh-pages
+    verbose: true
+    keep-history: false
+    skip-cleanup: true
+    on:
+      branch: zarrio-bros
