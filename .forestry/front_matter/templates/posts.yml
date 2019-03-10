@@ -3,7 +3,7 @@ label: posts
 hide_body: false
 fields:
 - name: layout
-  label: Layout
+  label: Plantilla
   type: text
   hidden: false
   default: post
