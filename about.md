@@ -1,7 +1,7 @@
 ---
 title: Acerca de
 date: 2017-11-01 03:00:00 +0000
-banner_image: "/uploads/2018/02/17/college-building.jpg"
+banner_image: "/uploads/2019/03/10/las-fuentes.jpg"
 heading: Acerca de Zarrio Bros
 sub_heading: Ora et Labora
 layout: landing-page
