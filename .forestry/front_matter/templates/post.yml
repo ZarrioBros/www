@@ -22,13 +22,13 @@ fields:
   type: select
   required: true
   hidden: false
-  default: 'posts'
+  default: posts
   config:
-      source:
-        type: custom
-      options:
-          - posts
-          - news
+    source:
+      type: custom
+    options:
+    - posts
+    - news
 - name: tags
   label: Etiquetas
   type: tag_list
