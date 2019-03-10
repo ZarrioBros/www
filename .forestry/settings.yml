@@ -5,35 +5,35 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: Contenido
 - type: jekyll-posts
-  label: Posts
+  label: Publicaciones
   create: all
   templates:
   - post
 - type: jekyll-pages
-  label: Pages
+  label: Páginas
   create: all
   templates:
   - landing-page
-  - page
+  - default
 - type: directory
   path: _people
-  label: People
+  label: Personas
   create: all
   match: "*"
   templates:
   - person
 - type: directory
   path: _projects
-  label: Projects
+  label: Proyectos
   create: all
   match: "*"
   templates:
   - project
 - type: document
   path: _data/information.yml
-  label: Contact Information
+  label: Información de contacto
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
@@ -48,3 +48,4 @@ build:
   - JEKYLL_ENV=production
   preview_output_directory: _site
   output_directory: _site
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future --port 8080 --host 0.0.0.0 -d _site
